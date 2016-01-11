@@ -1,8 +1,8 @@
 # Minitest::Clr
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/minitest/clr`. To experiment with that code, run `bin/console` for an interactive prompt.
+Just a gem that colorizes the final output of a Minitest test suite:
 
-TODO: Delete this and the text above, and describe your gem
+![Alt text](https://monosnap.com/file/m4MfgpxNPycheUfTIj3XSK8zIfzMOk.png)
 
 ## Installation
 
@@ -22,7 +22,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add this to your test helper file:
+
+```ruby
+require "minitest/clr"
+```
+
+Then, run your test files with:
+
+```bash
+ruby -I test:lib test/some_file_test.rb --clr
+```
 
 ## Development
 
