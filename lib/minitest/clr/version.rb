@@ -1,5 +1,6 @@
 module Minitest
-  module Clr
+  class Clr
     VERSION = "0.1.0"
   end
 end
+
